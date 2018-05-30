@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div#navega a{
+    text-decoration: none;
+    color: #000;
+}
+
+div#navega{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+div#navega a:hover{
+    color: #00a4d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span#atual{
+    color: #00a4d3 !important;
+}
+
+span.dados img{
+    width: 175px;
+    height: 130px;
+}
+
+button.buttonLixo{
+    background-image: url("../icones/lixeira.png");
+    z-index: 2;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    background-size: 100% 100%;
+    border: none;
+    position: relative;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+span.lixo{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+hr{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-left: 0px;
+    cursor: default;
+
+}
+
+div#especies{
+    width: 1000px;
+    height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -200px;
+}
+
+div#especies:before{
+    position: relative;
+    transition: all 0.35s;
+}
+
+div.especieIndividual:hover{
+    cursor: pointer;
+}
+
+div.especieIndividual:before{
+    position: absolute;
+    transition: all 0.35s;
+    top: 190px;
+    height: 0.5px;
+    width: 0%;
+    background-color: #000;
+}
+
+div.especieIndividual:hover:before{
+    width: 100%;
+}
+
+span.dados{
+    font-family: 'Andada', serif;
+    text-align: center;
+}
+
+button.buttonAdc{ 
+    border-style: none;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    left: 35%;
+    width: 49px;
+    height: 50px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+button.buttonAdc:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+button.buttonAdc img{
+    width: 50px;
+    position: relative;
+    top: -1px;
+    left: -6px;
+}
+
+div.especieIndividual{
+    width: 180px;
+    height: 200px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+span.lixo{
+    visibility: hidden;
+}
+
+div.especieIndividual:hover span.lixo{
+    visibility: visible;
+}
+div.especieIndividual:hover{
+    cursor: pointer;
+}
+
+div.especieIndividual:before, div.especieIndividual:after{
+    position: absolute;
+    transition: all 0.35s;
+}
+
+div.especieIndividual:before{
+    top: 190px;
+    display: block;
+    height: 1.5px;
+    width: 0%;
+    content: "";
+}
+
+div.especieIndividual:hover:before{
+    width: 100%;
+}

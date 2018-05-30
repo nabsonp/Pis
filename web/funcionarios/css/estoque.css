@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div#topo{
+    position: relative;
+    left: 100%;
+    margin-left: -122.5px;
+    width: 122.5px;
+    background-color: #f7f6f6;
+    padding: 8px;
+}
+
+div#topo a{
+    font-family: 'Andada', serif;
+    text-decoration: none;
+    color: #000;
+}
+
+div#topo img{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+div#navega{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+div#navega a{
+    text-decoration: none;
+    color: #000;
+}
+
+span#atual{
+    color: #00a4d3 !important;
+}
+
+div#navega a:hover{
+    color: #00a4d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div#corpo{
+    position: absolute;
+    top: 110px;
+    left: 10%;
+    width: 80%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ #corpo{
+    transform: translateX(7.5%);
+}
+
+h2{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    position: relative;
+}
+
+span.titulo{
+    display: block;
+}
+
+span.titulo button{
+    visibility: hidden;
+    float: right;
+    margin-right: 5px;
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -47.5px;
+}
+
+div.estoque:hover span.titulo button{
+    visibility: visible;
+}
+
+span.titulo button img{
+    width: 25px;
+    margin-left: 5px;
+    position: relative;
+    left: -10px;
+}
+
+span.titulo button:hover{
+    cursor: pointer;
+}
+
+h2#peixes{
+    left: 47.5%;
+    width: 5%;
+}
+
+h2#insumos{
+    left: 46.25%;
+    width: 7.5%;
+}
+
+h2#emc{
+    left: 31.95%;
+    width: 36.5%;
+}
+
+hr{
+    width: 100%;
+    position: relative;
+    top: -45px;
+}
+
+table.dados{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    top: -45px;
+    left: 50%;
+    margin-left: -555px;
+    width: 1200px;
+}
+
+table.dados td{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+table.dados td.btts{
+    visibility: hidden;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+}
+
+table.dados tr:hover td.btts{
+    visibility: visible;
+}
+
+table.dados td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.dados tr.titulo{
+    background-color: #91e4fb; 
+}
+
+td.btts button{
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 25px;
+    position: relative;
+    left: -10px;
+}
+
+td.btts button:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+body{
+    height: 1190px;
+}
+
+footer#rodape{
+    top:150% !important;
+}

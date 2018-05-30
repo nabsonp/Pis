@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+/*CADASTRAR TANQUE*/
+h1{
+    font-family: 'Andada', serif;
+    font-weight: inherit;
+    color: #606060;
+    text-align: center;
+}
+
+.margemEsquerda15{
+    margin-left: 15px;
+}
+
+form{
+    position: relative;
+    top: -20px;
+}
+
+table#formCad td{
+    padding: 7px;
+}
+
+hr{
+   position: relative;
+   top: -20px;
+}
+
+div#navega{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+div#navega a{
+    text-decoration: none;
+    color: #000;
+}
+
+span#atual{
+    color: #00a4d3 !important;
+}
+
+div#navega a:hover{
+    color: #00a4d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer#rodape{
+    top: 80%;
+}

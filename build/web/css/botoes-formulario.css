@@ -1,0 +1,46 @@
+button.botoes{
+    border: none;
+    border-radius: 32px;
+    width: 32px;
+    margin-left: 15px;
+    transition: all 0.5s;
+    font-family: 'Andada', serif;
+    font-size: 15px;
+    text-align: center;
+    background-color: #fff;
+    display:inline-flex;
+}
+
+button.botoes span{
+    display:inline-block;
+    visibility: hidden;
+    font-size: 0;
+    color: #ebebeb;
+    transition: all 0.5s;
+    margin-top: 25px;
+}
+
+button.botoes:hover{
+    cursor: pointer;
+    width: 110px;
+    background-color: #ebebeb; 
+}
+
+button.botoes:hover span{
+    font-size: 15px;
+    visibility: visible; 
+    color: #000;
+    margin-top: 17px;
+}
+
+button.botoes img {
+    width: 35px;
+    text-align: right;
+    position: relative;
+    left: -5%;
+}
+
+button.botoes span{
+    position: relative;
+    top: -10px;
+}

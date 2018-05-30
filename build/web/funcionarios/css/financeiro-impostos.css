@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+/* Menu Lateral */
+div.menuLateral {
+    height: 210px !important;
+}
+
+/*Corpo*/
+
+div#corpo{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 130px;
+    transition: all 0.5s;
+}
+
+#check:checked ~ div#corpo{
+    transform: translateX(10%);
+}
+
+hr{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 400px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 35%;
+    float: left;
+}
+
+span.mesAnoDespesas2{
+    padding-left: 820px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    border-width: thin;
+    width: 70px;
+}
+
+select.comboMeses{
+    border-radius: 5px;
+}
+
+button.adicionar{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+div.tituloBotao{
+    height: 50px;
+}
+
+div#tituloETabela:hover button.adicionar{
+    visibility: visible;
+}
+
+button.adicionar:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+table.impostos{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    top: 10px;
+    left: 50%;
+    margin-left: -495px;
+    width: 1000px;
+}
+
+table.impostos td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.impostos tr th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.impostos td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    color : white;
+}
+
+table.impostos tr:hover td.btts{
+    visibility: visible;
+}
+
+table.impostos td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+td.btts button{
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 25px;
+    position: relative;
+    left: -10px;
+}
+
+td.btts button:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+.dados{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.dadoss{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #91e4fb; 
+}

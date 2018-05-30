@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div.menuLateral {
+    height: 210px !important;
+}
+
+/*Rodapé*/
+
+footer#rodape{
+    top: 100% !important;
+}
+
+input#nome{
+    width: 100%;
+}
+
+input#forn{
+    width: 100%;
+}
+
+table.modal{
+    padding: 5px;
+    width: 75%;
+}
+
+table.modal td{
+    padding-top: 5px;
+}
+
+/*Corpo*/
+
+div#corpo{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 130px;
+    transition: all 0.5s;
+}
+
+#check:checked ~ div#corpo{
+    transform: translateX(10%);
+}
+
+hr{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 350px;
+    position: relative;
+    margin-bottom: 0px;
+    float: left;
+}
+
+h2.racoes{
+    left: 50%;
+    width: 300px !important;
+    margin-left: -150px;
+}
+
+img#iconeT{
+    margin-left: 5px;
+    transition: 0.5s;
+    background-color: #f0eded;
+    padding: 3px;
+    border-radius: 5px;
+    width: 25px;
+    z-index: 1;
+}
+
+#check:checked ~ .menuLateralT{
+    transform: translateX(255px);
+}
+
+#check:checked ~ #corpo{
+    transform: translateX(7.5%);
+}
+
+div.menuLateralT {
+    background-color: #f0eded;
+    width: 225px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -40px;
+    left: -255px;
+    transition: all 0.5s;
+    display: grid;
+}
+
+div.menuLateralT ul#botoes{
+    list-style: none;
+    position: relative;
+}
+
+h2.produtos{
+    left: 50%;
+    width: 200px !important;
+    margin-left: -100px;
+}
+
+h2.outros{
+    left: 50%;
+    width: 172px !important;
+    margin-left: -86px;
+}
+
+span.mesAnoDespesas2{
+    padding-left: 810px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    border-width: thin;
+    width: 70px;
+}
+
+select.comboMeses{
+    border-radius: 5px;
+}
+
+button.adicionar1{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+div.tituloBotao{
+    height: 50px;
+}
+
+div.tituloETabela:hover button.adicionar1{
+    visibility: visible;
+}
+
+button.adicionar1:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+button.adicionar2{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+
+div.tituloETabela:hover button.adicionar2{
+    visibility: visible;
+}
+
+button.adicionar3:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+button.adicionar3{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+
+div.tituloETabela:hover button.adicionar3{
+    visibility: visible;
+}
+
+button.adicionar3:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+table.racao{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    width: 1000px;
+    top: 10px;
+}
+
+table.produtos{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    width: 1000px;
+    top: 10px;
+    left: 50%;
+    margin-left: -452.5px;
+}
+
+table.outros{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    width: 1000px;
+    top: 10px;
+    left: 50%;
+    margin-left: -452.5px;
+}
+
+table.racao td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.produtos td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.outros td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.racao th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.produtos th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.outros th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 68px;
+    padding-right: 68px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.racao td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.produtos td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.outros td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.racao tr:hover td.btts{
+    visibility: visible;
+}
+
+table.produtos tr:hover td.btts{
+    visibility: visible;
+}
+
+table.outros tr:hover td.btts{
+    visibility: visible;
+}
+
+table.racao td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.produtos td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.outros td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+td.btts button{
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 25px;
+    position: relative;
+    left: -10px;
+}
+
+td.btts button:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+.dados{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+.dadoss{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #91e4fb; 
+}
+

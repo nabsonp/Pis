@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+* {
+    font-family: 'Andada', serif;
+}
+
+div{
+    width: 400px;
+    background-color: #006e8c;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -125px;
+}
+
+img#logotipo{
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+span#entrar{
+    position: relative;
+    left: 90px;
+    top: -10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table label{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+table td{
+    padding: 5px;
+    padding-top: 15px;
+}
+
+td a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+td a:hover{
+    text-decoration: underline;
+    color: #00FFFF;
+}
+
+td#msgErro{
+    margin-left: 10px;
+}
+
+table input{
+    width: 280px;
+    height: 25px;
+    margin-left: 10px;
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+input#senha{
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+button.botoes img{
+    position: relative;
+    left: -8px;
+    top: -1px;
+}
+
+button.botoes{
+    height: 34px;
+    width: 30px;
+    float: right;
+}

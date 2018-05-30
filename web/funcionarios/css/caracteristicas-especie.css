@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div#corpo{
+    position: absolute;
+    width: 80%;
+    top: 100px;
+    left: 10%;
+    transition: all 0.5s;
+}
+
+img#imagem{
+    width: 175px;
+    height: 130px;
+    float: right;
+    position: relative;
+    left : -50px;
+}
+
+#check:checked ~ div#corpo{
+    transform: translateX(10%);
+}
+
+h2{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: -80px;
+    width: 160px;
+    left: 50%;
+}
+
+hr{
+    position: relative;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+table#caracteristica{
+    border-width: 1px;
+    border-spacing: 0px 0px;
+    position: relative;
+    top: 5px;
+    left: 50%;
+    margin-left: -325px;
+    width: 700px;
+    
+}
+
+table#caracteristica td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 15px;
+    padding-right: 15px; 
+}
+
+table#caracteristica th:not(.dadoss){
+    border-style: solid;
+    border-width: thin;
+    font-weight: normal;
+    padding-left: 170px;
+    padding-right: 170px;
+    background-color: #91e4fb; 
+}
+
+table#caracteristica td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table#caracteristica tr:hover td.btts{
+    visibility: visible;
+}
+
+table#caracteristica td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+td.btts button{
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 25px;
+    position: relative;
+    left: -10px;
+}
+
+td.btts button:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+.dados{
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+.dadoss{
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #91e4fb; 
+}
+
+body{
+    height: 0;
+}
+
+input#excluir{
+    background-color: #006e8c;
+    padding: 10px;
+    border-radius:5px;
+    border-style: none;
+    font-family: 'Andada', serif;
+    position: relative;
+    top: 20px;
+    margin-left: -50px;
+    left: 50%;
+    color: white;   
+}
+
+input#excluir:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #00FFFF;
+}
+
+input#edit{
+    border-style: none;
+    border-bottom: 1px solid #000;
+}

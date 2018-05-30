@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2017, 00:47:23
+    Author     : samsung
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+/*RELATÓRIOS DE TANQUES*/
+nav#submenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+    border-radius: 5px;
+}
+
+nav#submenu button{
+    font-family: 'Andada', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-style: inherit;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+nav#submenu button:hover{
+    cursor: pointer;
+    background-color: #4dd7fa;
+    color: #fff;
+}
+
+nav#submenu button#sub-current{
+    background-color: #4dd7fa !important;
+    color: #fff;
+}
+
+article#tanques{
+    transition: all 0.5s;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    align-items: baseline;
+    justify-content:center;
+}
+
+span.tanque{
+    background-color: #63f26e;
+    min-width: 175px;
+    height: 175px;
+    border-radius: 5px;
+    margin: 1%;
+    transition: all 0.3s;
+    float: left;
+}
+
+span.tanque:hover{
+    cursor: pointer;
+    box-shadow: #16d211 1px 1px 1px 1px;
+}
+
+span.tanque div{
+    background-color: #16d211;
+    width: 150px;
+    height: 125px;
+    border-radius: 5px;
+    position: relative;
+    left: 12.5px;
+    top: 15px;
+}
+
+span.id{
+    font-family: 'Andada', serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 28px;
+    position: relative;
+    top: 7.5px;
+}
+
+span.dado{
+    font-family: 'Andada', serif;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+span.atv{
+    font-family: 'Andada', serif;
+    font-size: 17.5px;
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+h2{
+    position: absolute;
+    left: 10%;
+    color: #1a7c96;
+    font-size: 20px;
+    font-family: 'Andada', serif;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    color: #008db1;
+    font-weight: inherit;
+    text-align: center;
+}

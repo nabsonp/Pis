@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div.menuLateral {
+    height: 210px !important;
+}
+
+/*RODAPÉ*/
+footer#rodape{
+    top: 145% !important;
+}
+
+/*=============Corpo=================*/
+
+div#corpo{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 130px;
+    transition: all 0.5s;
+}
+
+#check:checked ~ div#corpo{
+    transform: translateX(10%);
+}
+
+
+hr{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+h2{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 400px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 35%;
+    float: left;
+}
+
+h2.combu{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 302px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 50%;
+    margin-left: -151px;
+    float: left;
+}
+
+h2.revisoes{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 216px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 50%;
+    margin-left: -108px;
+    float: left;
+}
+
+
+h2.maquinas{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 280px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 50%;
+    margin-left: -140px;
+    float: left;
+}
+
+
+h2.reformas{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    width: 260px;
+    position: relative;
+    margin-bottom: 0px;
+    left: 50%;
+    margin-left: -130px;
+    float: left;
+}
+
+span.mesAnoDespesas2{
+    padding-left: 820px;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    border-width: thin;
+    width: 70px;
+}
+
+select.comboMeses{
+    border-radius: 5px;
+}
+
+button.adicionar1{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+button.adicionar2{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+div#topo{
+    position: relative;
+    left: 100%;
+    margin-left: -122.5px;
+    width: 122.5px;
+    background-color: #f7f6f6;
+    padding: 8px;
+}
+
+div#topo a{
+    font-family: 'Andada', serif;
+    text-decoration: none;
+    color: #000;
+}
+
+div#topo img{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+button.adicionar3{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+
+button.adicionar4{
+    background-image: url("../icones/adicionar.png");
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: right;
+    border: none;
+    background-color: white;
+    visibility: hidden;
+}
+div.tituloBotao{
+    height: 50px;
+}
+
+div.tituloETabela:hover button.adicionar1{
+    visibility: visible;
+}
+
+button.adicionar1:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+
+div.tituloETabela:hover button.adicionar2{
+    visibility: visible;
+}
+
+button.adicionar2:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+
+div.tituloETabela:hover button.adicionar3{
+    visibility: visible;
+}
+
+button.adicionar3:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+
+div.tituloETabela:hover button.adicionar4{
+    visibility: visible;
+}
+
+button.adicionar4:hover{
+    cursor: pointer;
+    background-color: #1a7c96;
+}
+
+table.combu{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    top: 10px;
+    left: 50%;
+    margin-left: -532.5px;
+    width: 1100px;
+}
+
+table.revisoes{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    top: 10px;
+    left: 50%;
+    margin-left: -532.5px;
+    width: 1100px;
+}
+
+table.maquinas{
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    top: 10px;
+    left: 50%;
+    margin-left: -532.5px;
+    width: 1100px;
+}
+
+table.reformas{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    margin-bottom: 15px;
+    top: 10px;
+    left: 50%;
+    margin-left: -532.5px;
+    width: 1100px;
+}
+
+table.combu td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.revisoes td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.maquinas td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.reformas td:not(.dados){
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+table.combu tr th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.revisoes tr th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.maquinas tr th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+table.reformas tr th{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: normal;
+    padding-left: 33px;
+    padding-right: 33px;
+    background-color: #91e4fb;
+    text-decoration: none;
+}
+
+td.btts{
+    text-align: center;
+    border-style: inherit !important;
+    border-width: 0px !important;
+    visibility: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+
+table.combu tr:hover td.btts{
+    visibility: visible;
+}
+
+table.revisoes tr:hover td.btts{
+    visibility: visible;
+}
+
+table.maquinas tr:hover td.btts{
+    visibility: visible;
+}
+
+table.reformas tr:hover td.btts{
+    visibility: visible;
+}
+
+table.combu td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.revisoes td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.maquinas td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+table.reformas td.btts img{
+    width: 17.5px;
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+    left: -7.5px;
+}
+
+td.btts button{
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 25px;
+    width: 25px;
+    position: relative;
+    left: -10px;
+}
+
+td.btts button:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+.dados{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px; 
+}
+
+.dadoss{
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #91e4fb; 
+}

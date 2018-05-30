@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02/09/2017, 10:02:41
+    Author     : samsung
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+div#navega{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 5px;
+}
+
+div#navega a{
+    text-decoration: none;
+    color: #000;
+}
+
+span#atual{
+    color: #00a4d3 !important;
+}
+
+div#navega a:hover{
+    color: #00a4d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    font-size: 30px;
+    width: 250px;
+    color: #1a7c96;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    text-align:center;
+    top: 10px;
+}
+
+span.dados img{
+    width: 175px;
+    height: 130px;
+}
+
+button.buttonLixo{
+    background-image: url("../icones/lixeira.png");
+    z-index: 2;
+    background-color: white;
+    width: 16px;
+    height: 16px;
+    background-size: 100% 100%;
+    border: none;
+    position: relative;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+
+span.lixo{
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+div#especies{
+    width: 1000px;
+    height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -500px;
+    margin-top: -200px;
+}
+
+div#especies:before{
+    position: relative;
+    transition: all 0.35s;
+}
+
+div.especieIndividual:hover{
+    cursor: pointer;
+    background-color: #dcdcdc;
+    transition: all 0.35s;
+}
+
+div.especieIndividual:before{
+    position: absolute;
+    transition: all 0.35s;
+    top: 190px;
+    height: 0.5px;
+    width: 0%;
+    background-color: #000;
+}
+
+div.especieIndividual:hover:before{
+    width: 100%;
+}
+
+span.dados{
+    font-family: 'Andada', serif;
+    text-align: center;
+}
+
+div.especieIndividual{
+    width: 180px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    float: left;
+}

@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/12/2017, 21:19:16
+    Author     : samsung
+*/
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+input#confirmar{
+    background-color: #006e8c;
+    padding: 5px;
+    border-radius:5px;
+    border-style: none;
+    font-family: 'Andada', serif;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+}
+
+table#corpo{
+    position: relative;
+    left: 25%;
+}
+
+input#confirmar:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #00FFFF;
+}
+
+input.campo{
+    border: #c0c0c0 solid 1px;
+    border-radius: 5px;
+    font-family: 'Andada', serif;
+    padding: 2px;
+}
+
+div#corpo{
+    width: 25%;
+    position: relative;
+    left: 37.5%;
+    background-color: rgba(192, 192, 192, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    font-size: 30px;
+    width: 100%;
+    color: #1a7c96;
+    text-align:center;
+    top: 10px;
+}
+
+label{
+    font-family: 'Andada', serif;
+}
+
+p{
+    font-family: 'Andada', serif;
+    margin-left: 15%;
+}

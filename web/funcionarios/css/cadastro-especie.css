@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+h1{
+    color: #606060;
+    text-align: center;
+    margin-bottom: 0%;
+    font-family: 'Andada', serif;
+    font-weight: inherit;
+}
+
+hr{
+    position: relative;
+    top: -10px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+}
+
+div#informacoes-peixe{
+    width: 875px;
+    position: relative;
+    left: 50%;
+    margin-left: -427.5px;
+}
+
+button.botoes{
+    position: relative;
+    left: 200px
+}
+
+input{
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 2px;
+}
+
+table#form label{
+    font-family: 'Andada', serif;
+    font-weight: inherit;
+    font-size: 14.5px;
+}
+
+table#form td{
+    padding-top: 15px;
+}

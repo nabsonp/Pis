@@ -1,0 +1,221 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/12/2017, 13:47:52
+    Author     : samsung
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Andada');
+/*RELATÓRIOS DE TANQUES*/
+
+div#topo{
+    float: right;
+    background-color: #f7f6f6;
+    padding: 8px;
+    margin: 50px;
+}
+
+div#topo a{
+    font-family: 'Andada', serif;
+    text-decoration: none;
+    color: #000;
+}
+
+div#topo img{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    left: 5px;
+}
+
+div#corpo{
+    position: absolute;
+    top: 125px;
+    left: 10%;
+    width: 80%;
+    transition: all 0.5s;
+    margin-bottom: 50px;
+}
+
+nav#submenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+    border-radius: 5px;
+}
+
+nav#submenu button{
+    font-family: 'Andada', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-style: inherit;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+nav#submenu button:hover{
+    cursor: pointer;
+    background-color: #4dd7fa;
+    color: #fff;
+}
+
+nav#submenu button#sub-current{
+    background-color: #4dd7fa !important;
+    color: #fff;
+}
+
+nav#submenuTanque ul{
+    list-style: none;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: baseline;
+    -webkit-justify-content: center;
+    justify-content:center;
+    position: relative;
+    top: -15px;
+    left: 50%;
+    margin-left: -140px;
+    width: 200px;
+}
+
+nav#submenuTanque li button{
+    font-family: 'Andada', serif;
+    background-color: #fff;
+    border-style: inherit;
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+    transition: 0.5s;
+}
+
+nav#submenuTanque li button:hover{
+    cursor: pointer;
+    color: #008db1;
+}
+
+nav#submenuTanque li button:before, nav#submenuTanque li button:after {
+    position: relative;
+    transition: all 0.35s;
+}
+
+nav#submenuTanque li button:before {
+    top: 30px;
+    left: -25%;
+    display: block;
+    height: 1.5px;
+    width: 0%;
+    content: "";
+    background-color: #008db1;
+}
+        
+nav#submenuTanque li button:hover:before, nav#submenuTanque li.current button:before {
+    width: 150%;
+}
+
+h2.titulo{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+span.titulo{
+    display: block;
+}
+
+span.titulo button{
+    visibility: hidden;
+    float: right;
+    margin-right: 5px;
+    border-style: inherit;
+    background-color: #fff;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -57.5px;
+}
+
+div#corpo div:hover span.titulo button{
+    visibility: visible;
+}
+
+span.titulo button img{
+    width: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: 3px;
+    left: -5.5px;
+}
+
+span.titulo button:hover{
+    cursor: pointer;
+}
+
+table.dados{
+    border-width: 1px;
+    border-spacing: 0px;
+    position: relative;
+    top: -55px;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+}
+
+table.dados td{
+    text-align: left;
+    border-style: solid;
+    border-width: 1px;
+}
+
+table.dados tr.titulo{
+    background-color: #91e4fb;
+    text-align: center !important;
+}
+
+table.dados tr.titulo td{
+    text-align: center !important;
+}
+
+div#corpo div div{
+    position: relative;
+    top: -45px;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    height: 250px;
+    background-color: #f7f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#corpo div div h1{
+    font-family: 'Andada', serif;
+    color: #003748;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    color: #008db1;
+    font-weight: inherit;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Andada', serif;
+    color: #606060; 
+    font-weight: inherit;
+    margin-bottom: -25px;
+}

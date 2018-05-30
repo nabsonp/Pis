@@ -1,0 +1,81 @@
+/*MENU LATERAL*/
+img#icone{
+    margin-left: 5px;
+    position: relative;
+    top:1px;
+    transition: 0.5s;
+    background-color: #f0eded;
+    padding: 3px;
+    border-radius: 5px;
+    width: 25px;
+    z-index: 1;
+}
+
+img#icone:hover{
+    background-color: #1a7c96;
+    cursor: pointer;
+}
+
+input#check{
+    display: none;
+}
+
+label#lab{
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+
+#check:checked ~ .menuLateral{
+    transform: translateX(255px);
+}
+
+div.menuLateral {
+    background-color: #f0eded;
+    width: 225px;
+    display: grid;
+    border-radius: 5px;
+    position: relative;
+    top: -30px;
+    left: -255px;
+    transition: all 0.5s;
+}
+
+li.titulo{
+    margin-top: -7.5px;
+    margin-bottom: 2.5px;
+    text-align: center;
+    margin-left: -50px;
+    font-family: 'Andada', serif;
+}
+
+ul#botoes{
+    list-style: none;
+    position: relative;
+}
+
+button#current{
+    background-color: #1a7c96 !important;
+    color: #fff !important;
+}
+
+ul#botoes button, div.menuLateral input{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: 'Andada', serif;
+    text-align: center;
+    color: black;
+    width: 205px;
+    margin-top: 5px;
+    box-shadow: 2px 2px grey;
+    position: relative;
+    right: 31px;
+    transition: 0.1s;
+}
+
+ul#botoes button:hover, div.menuLateral input:hover{
+    background-color: #1a7c96 !important;
+    color: #fff !important;
+    cursor: pointer;
+}

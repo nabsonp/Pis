@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+/*Página Inicial*/
+img#peixe{
+    width: 35%;
+    min-width: 400px;
+    position: absolute;
+    top: 17.5%;
+    left:5%;
+}
+
+div#textoPrincipal{
+    font-family: 'Andada', serif;
+    color: #444444;
+    font-size: 475%;
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    top: 10%;
+}
+
+div#bv{
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#descricao{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+div#msg{
+    position: relative;
+    top: 100px;
+    color: #00c8f8;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+/*RODAPÉ*/
+footer#rodape{
+    top: 105% !important;
+}

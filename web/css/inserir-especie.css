@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20/10/2017, 10:49:21
+    Author     : samsung
+*/
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+table.caracteristica td{
+    padding-left: 50px;
+    padding-right: 10px;
+    font-family: 'Andada', serif;
+    position: relative;
+    left: 10%;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    font-size: 30px;
+    width: 100%;
+    color: #1a7c96;
+    text-align:center;
+    top: 10px;
+}
+
+h2{
+    font-family: 'Andada', serif;
+    width: 100%;
+    text-align:center;
+    color: #1a7c96;
+}
+
+div#especie{
+    display: flex;
+    align-items: center;    
+}
+
+div#especie img{
+    width: 500px;
+    position: relative;
+    left: -50px;
+}
+
+fieldset{
+    border-style: solid;
+    border-radius: 10px;
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    margin-bottom: 25px;
+}
+
+input#confirmar{
+    background-color: #006e8c;
+    padding: 10px;
+    border-radius:5px;
+    border-style: none;
+    font-family: 'Andada', serif;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    margin-left: -50px;
+    left: 50%;
+    color: white;
+    margin-bottom: 100px;
+}
+
+input#confirmar:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #00FFFF;
+}
+
+input.campo{
+    border: #c0c0c0 solid 1px;
+    border-radius: 5px;
+    font-family: 'Andada', serif;
+    padding: 2px;
+}
+
+input#agora{
+    border: #c0c0c0 solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: #fff;
+    color: #006e8c;
+}
+
+input#agora:hover{
+    color:#fff;
+    background-color: #006e8c;
+    cursor: pointer;
+}

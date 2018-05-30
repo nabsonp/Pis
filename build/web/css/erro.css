@@ -1,0 +1,57 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/09/2017, 11:25:33
+    Author     : samsung
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+span, a{
+    text-decoration: none;
+    color: #00a4d3;
+}
+
+span, a:hover{
+    color: #00a4d3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div#corpo{
+    background-color: Gainsboro;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    height: 150px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+h1{
+    font-family: 'Andada', serif;
+    font-size: 30px;
+    width: 250px;
+    color: #1a7c96;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    text-align:center;
+    top: 10px;
+}
+
+p{
+    font-family: 'Andada', serif;
+    text-align: center;
+}
+
+span{
+    margin: 10px;
+    margin-top: 20px;
+    font-family: 'Andada', serif;
+    float: right;
+}

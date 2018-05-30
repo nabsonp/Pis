@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/12/2017, 16:57:30
+    Author     : samsung
+*/
+@import url('https://fonts.googleapis.com/css?family=Andada');
+
+li#atual{
+    background: #1a7c96;
+}
+
+div#corpo{
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    padding: 10px;
+    border-radius: 15px;
+    top: 10px;
+}
+
+h1 {
+    font-family: 'Andada', serif;
+    font-size: 30px;
+    width: 250px;
+    color: #1a7c96;
+    position: relative;
+    left: 50%;
+    margin-left: -125px;
+    text-align:center;
+    top: 10px;
+}
+
+img#imgFunc{
+    width: 100px;
+    float: right;
+    position: relative;
+    left: -100px;
+    top: -75px;
+    border-radius: 10px
+}
+
+fieldset{
+    width: 60%;
+    border-radius: 20px;
+    position:relative;
+    left: 20%;
+}
+
+legend {
+    font-family: 'Andada', serif;
+    font-size: 20px;
+}
+
+td{
+    padding: 5px;
+    font-family: 'Andada', serif;
+}
+
+input.campo{
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 3px;
+}
+
+button.btn{
+    border: #c0c0c0 solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #fff;
+    color: #006e8c;
+    font-size: 17px;
+    width: 175px;
+    position: relative;
+    left: 50%;
+    margin-left: -72.5px;
+    top: 15px;
+}
+
+button.btn:hover{
+    color:#fff;
+    background-color: #006e8c;
+    cursor: pointer;
+}
